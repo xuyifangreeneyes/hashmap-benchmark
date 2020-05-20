@@ -64,7 +64,7 @@ void test_google_dense_hash_map(std::size_t num) {
   }
   auto end_time = std::chrono::high_resolution_clock::now();
   double duration = std::chrono::duration<double>(end_time - start_time).count();
-  std::cout << "google::dense_hash_map: " << duration / QUERIES << " s" << std::endl;
+  std::cout << "google::dense_hash_map: " << duration / QUERIES << "s" << std::endl;
 
 }
 
